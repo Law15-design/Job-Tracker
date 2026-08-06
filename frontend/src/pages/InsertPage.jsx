@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 // backend url, if i host this online later i just change this one line
-const API_BASE = 'http://localhost:8080/job-tracker/api'
+const API_BASE = 'https://job-tracker-lzz9.onrender.com/api'
 
 function InsertPage({ goHome, appPassword }) {
   // one state for each input box, react call this "controlled input"
