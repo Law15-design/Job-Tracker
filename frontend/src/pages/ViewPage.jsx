@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API_BASE = 'http://localhost:8080/job-tracker/api'
+const API_BASE = 'https://job-tracker-lzz9.onrender.com/api'
 
 const FILTERS = ['All', 'Applied', 'Interview', 'Accepted', 'Rejected']
 
