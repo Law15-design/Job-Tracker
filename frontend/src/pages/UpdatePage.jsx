@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const API_BASE = 'http://localhost:8080/job-tracker/api'
+const API_BASE = 'https://job-tracker-lzz9.onrender.com/api'
 
 function UpdatePage({ goHome, appPassword }) {
   const [query, setQuery] = useState('')
