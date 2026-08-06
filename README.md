@@ -1,8 +1,8 @@
-\# Job Application Tracker 📋
+# Job Application Tracker 📋
 
 
 
-\## Why I made this
+## Why I made this
 
 
 
@@ -16,23 +16,23 @@ This is my first real full stack project where I connect everything myself - dat
 
 
 
-\## What it does
+## What it does
 
 
 
-\- \*\*Add new application\*\* - job title, company, optional job ID, and date (today or pick another date)
+- \*\*Add new application\*\* - job title, company, optional job ID, and date (today or pick another date)
 
-\- \*\*Search and update status\*\* - find any application by company, title, or job ID, then mark it Interview / Accepted / Rejected
+- \*\*Search and update status\*\* - find any application by company, title, or job ID, then mark it Interview / Accepted / Rejected
 
-\- \*\*View all applications\*\* - color coded so I can see red (rejected), green (accepted), yellow (interview) at a glance, with filter tabs
+- \*\*View all applications\*\* - color coded so I can see red (rejected), green (accepted), yellow (interview) at a glance, with filter tabs
 
-\- \*\*Delete\*\* - remove ones I dont need anymore
+- \*\*Delete\*\* - remove ones I dont need anymore
 
-\- Shows how many days ago I applied, so I know when to follow up
+- Shows how many days ago I applied, so I know when to follow up
 
 
 
-\## Tech stack
+## Tech stack
 
 
 
@@ -50,7 +50,7 @@ I wanted to keep everything free and open source since this was a personal proje
 
 
 
-\## How it works (flow)
+## How it works (flow)
 
 
 
@@ -98,7 +98,7 @@ Basically: I tap something on my phone → React sends a request → Java servle
 
 
 
-\## Project structure
+## Project structure
 
 
 
@@ -136,7 +136,7 @@ job-tracker/
 
 
 
-\## Running it yourself
+## Running it yourself
 
 
 
@@ -166,7 +166,7 @@ npm run dev
 
 
 
-\## What I learned building this
+## What I learned building this
 
 
 
