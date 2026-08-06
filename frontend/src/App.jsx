@@ -5,7 +5,7 @@ import UpdatePage from './pages/UpdatePage'
 import ViewPage from './pages/ViewPage'
 import './App.css'
 
-const API_BASE = 'http://localhost:8080/job-tracker/api'
+const API_BASE = 'https://job-tracker-lzz9.onrender.com/api'
 // putting this on window so LoginPage.jsx can also reach it
 // without me needing to import/pass it around everywhere
 window.API_BASE = API_BASE
