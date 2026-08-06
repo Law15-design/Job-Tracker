@@ -55,41 +55,23 @@ I wanted to keep everything free and open source since this was a personal proje
 
 
 ```mermaid
-
 flowchart TD
-
-&#x20;   A\[Phone / Browser - React App] -->|HTTP request| B\[Java Servlet on Tomcat]
-
-&#x20;   B --> C{Which endpoint?}
-
-&#x20;   C -->|Insert| D\[InsertJobServlet]
-
-&#x20;   C -->|Search| E\[SearchJobServlet]
-
-&#x20;   C -->|Update Status| F\[UpdateStatusServlet]
-
-&#x20;   C -->|Delete| G\[DeleteJobServlet]
-
-&#x20;   C -->|View All| H\[ViewJobsServlet]
-
-&#x20;   D --> I\[JobApplicationDAO]
-
-&#x20;   E --> I
-
-&#x20;   F --> I
-
-&#x20;   G --> I
-
-&#x20;   H --> I
-
-&#x20;   I -->|SQL queries| J\[(Neon PostgreSQL Database)]
-
-&#x20;   J --> I
-
-&#x20;   I --> B
-
-&#x20;   B -->|JSON response| A
-
+    A[Phone or Browser - React App] -->|HTTP request| B[Java Servlet on Tomcat]
+    B --> C{Which endpoint?}
+    C -->|Insert| D[InsertJobServlet]
+    C -->|Search| E[SearchJobServlet]
+    C -->|Update Status| F[UpdateStatusServlet]
+    C -->|Delete| G[DeleteJobServlet]
+    C -->|View All| H[ViewJobsServlet]
+    D --> I[JobApplicationDAO]
+    E --> I
+    F --> I
+    G --> I
+    H --> I
+    I -->|SQL queries| J[(Neon PostgreSQL Database)]
+    J --> I
+    I --> B
+    B -->|JSON response| A
 ```
 
 
